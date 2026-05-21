@@ -509,40 +509,37 @@ function initMobileMenu() {
 
 // Desktop menu functionality
 function initDesktopMenu() {
-    // Find all desktop menu buttons
-    const desktopMenuBtns = document.querySelectorAll('button:not(#mobile-menu-btn):not(#close-menu-btn):not(.language-toggle)');
+    // Find desktop menu button using data-translate attribute
+    const desktopMenuBtn = document.querySelector('button[data-translate="nav_menu"]');
     
-    desktopMenuBtns.forEach(btn => {
-        if (btn.textContent.trim() === 'Menu') {
-            btn.addEventListener('click', (e) => {
-                e.preventDefault();
-                e.stopPropagation();
-                console.log('Desktop menu clicked - working!');
-                
-                // Toggle mobile menu for desktop as well (reuse same overlay)
-                const mobileMenu = document.getElementById('mobile-menu');
-                const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-                
-                if (mobileMenu && mobileMenuBtn) {
-                    const isOpen = !mobileMenu.classList.contains('hidden');
-                    
-                    if (isOpen) {
-                        mobileMenu.classList.add('hidden');
-                        mobileMenuBtn.setAttribute('aria-expanded', 'false');
-                        document.body.style.overflow = '';
-                    } else {
-                        mobileMenu.classList.remove('hidden');
-                        mobileMenuBtn.setAttribute('aria-expanded', 'true');
-                        document.body.style.overflow = 'hidden';
-                    }
-                }
-            });
+    if (desktopMenuBtn) {
+        desktopMenuBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
             
-            // Ensure button is clickable
-            btn.style.pointerEvents = 'auto';
-            btn.style.cursor = 'pointer';
-        }
-    });
+            // Toggle mobile menu for desktop as well (reuse same overlay)
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            
+            if (mobileMenu && mobileMenuBtn) {
+                const isOpen = !mobileMenu.classList.contains('hidden');
+                
+                if (isOpen) {
+                    mobileMenu.classList.add('hidden');
+                    mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                    document.body.style.overflow = '';
+                } else {
+                    mobileMenu.classList.remove('hidden');
+                    mobileMenuBtn.setAttribute('aria-expanded', 'true');
+                    document.body.style.overflow = 'hidden';
+                }
+            }
+        });
+        
+        // Ensure button is clickable
+        desktopMenuBtn.style.pointerEvents = 'auto';
+        desktopMenuBtn.style.cursor = 'pointer';
+    }
 }
 
 // Intersection Observer for fade-in animations
