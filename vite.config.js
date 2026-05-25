@@ -4,6 +4,7 @@ import { resolve } from 'path'
 export default defineConfig({
   base: './',
   root: '.',
+  assetsInclude: ['**/*.JPEG', '**/*.JPG', '**/*.jpeg', '**/*.jpg', '**/*.PNG', '**/*.png'],
   build: {
     outDir: 'docs',
     rollupOptions: {

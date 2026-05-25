@@ -1,4 +1,11 @@
 // ============================================================
+// ASSET IMPORTS - Vite will handle hashing and path resolution
+// ============================================================
+import gradImage from '../Photos/grad.JPEG';
+import niuImage from '../Photos/niu.JPEG';
+import img8592Image from '../Photos/IMG_8592.jpeg';
+
+// ============================================================
 // LANGUAGE SYSTEM - Must run BEFORE DOM is visible
 // ============================================================
 
@@ -681,6 +688,27 @@ function initMobileImageCycling() {
     setInterval(cycleImages, cycleInterval);
 }
 
+// Set dynamic image paths for Vite assets
+function initDynamicImagePaths() {
+    // Set graduation image src
+    const gradImages = document.querySelectorAll('img[data-asset="grad"]');
+    gradImages.forEach(img => {
+        img.src = gradImage;
+    });
+
+    // Set NIU image src
+    const niuImages = document.querySelectorAll('img[data-asset="niu"]');
+    niuImages.forEach(img => {
+        img.src = niuImage;
+    });
+
+    // Set background image src
+    const bgImages = document.querySelectorAll('img[data-asset="bg"]');
+    bgImages.forEach(img => {
+        img.src = img8592Image;
+    });
+}
+
 // Initialize all functionality
 document.addEventListener('DOMContentLoaded', () => {
     initMobileMenu();
@@ -688,6 +716,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initWhatsAppButton();
     initLanguageToggle();
     initMobileImageCycling();
+    initDynamicImagePaths();
 
     // Add loaded class to body for CSS transitions
     document.body.classList.add('loaded');
