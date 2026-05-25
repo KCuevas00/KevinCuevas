@@ -41,14 +41,20 @@ const translations = {
 
         // Project 2 - TAAG
         project_taag_title: 'TAAG Quality Construction Inc.',
-        project_taag_category: 'Restaurant & Business',
-        project_taag_desc: 'Modern restaurant website featuring menu displays, online reservations, and event promotion to enhance the dining experience.',
+        project_taag_category: 'Concrete & Masonry',
+        project_taag_desc: 'Professional construction website showcasing concrete and masonry work for residential and commercial projects.',
         project_taag_view: 'View Project',
 
-        // Project 3 - Unidos Rocha
+        // Project 3 - El Sarape
+        project_elsarape_title: 'El Sarape',
+        project_elsarape_category: 'Restaurant',
+        project_elsarape_desc: 'Family-owned Mexican restaurant website in Silvis, IL featuring menu, location, and contact information.',
+        project_elsarape_view: 'View Project',
+
+        // Project 4 - Unidos Rocha
         project_unidos_title: 'Unidos Rocha',
-        project_unidos_category: 'Hispanic-Owned Business',
-        project_unidos_desc: 'Culturally-responsive website serving the Hispanic community with bilingual content and authentic local business representation.',
+        project_unidos_category: 'Landscaping & Snow Removal',
+        project_unidos_desc: 'Professional landscaping and snow removal services serving the local community with reliable, year-round outdoor maintenance.',
         project_unidos_view: 'View Project',
 
         view_all_work: 'View All Work →',
@@ -118,15 +124,20 @@ const translations = {
         work_mg_feature2: 'Service showcase',
         work_mg_feature3: 'Customer testimonials',
 
-        work_taag_tag: 'Restaurant',
-        work_taag_feature1: 'Online reservations',
-        work_taag_feature2: 'Digital menu',
-        work_taag_feature3: 'Event promotion',
+        work_taag_tag: 'Construction',
+        work_taag_feature1: 'Concrete work',
+        work_taag_feature2: 'Masonry services',
+        work_taag_feature3: 'Commercial projects',
 
-        work_unidos_tag: 'Community Business',
-        work_unidos_feature1: 'Bilingual support',
-        work_unidos_feature2: 'Community focus',
-        work_unidos_feature3: 'Cultural authenticity',
+        work_elsarape_tag: 'Restaurant',
+        work_elsarape_feature1: 'Online menu',
+        work_elsarape_feature2: 'Location & hours',
+        work_elsarape_feature3: 'Easy contact',
+
+        work_unidos_tag: 'Landscaping',
+        work_unidos_feature1: 'Landscaping services',
+        work_unidos_feature2: 'Snow removal',
+        work_unidos_feature3: 'Year-round maintenance',
 
         work_cta_title: 'Ready to start your project?',
         work_cta_desc: "Let's discuss how we can create a professional online presence for your business.",
@@ -197,13 +208,13 @@ const translations = {
         // Navigation
         nav_home: 'INICIO',
         nav_work: 'GALERÍA',
-        nav_about: 'SOBRE',
+        nav_about: 'SOBRE MÍ',
         nav_contact: 'CONTACTO',
         nav_menu: 'Menú',
         nav_close: 'Cerrar menú',
 
         // Hero - Index
-        hero_title: 'Sitios web simples para pequeñas empresas de Illinois.',
+        hero_title: 'Sitios web sencillos para negocios pequeños en Illinois.',
         hero_name: 'Kevin Cuevas',
         //hero_education: 'Universidad Northern Illinois — Ciencias de la Computación',
 
@@ -212,78 +223,84 @@ const translations = {
         //hero_work_by: 'por Kevin Cuevas.',
 
         // Hero - About
-        hero_about_title: 'Acerca de Kevin',
-        hero_about_desc: 'Estudiante de Ciencias de la Computación en Northern Illinois University creando sitios web para empresas locales en Illinois.',
+        hero_about_title: 'Sobre Kevin',
+        hero_about_desc: 'Estudiante de Computación en Northern Illinois University haciendo sitios web para negocios locales en Illinois.',
 
         // Hero - Contact
         hero_contact_title: 'Contacto',
-        hero_contact_desc: '¿Necesita un sitio web para su negocio en Illinois? Puedo ayudarle a estar en línea de manera rápida y asequible.',
+        hero_contact_desc: '¿Necesitas un sitio web para tu negocio en Illinois? Puedo ayudarte a estar en línea rápido y barato.',
 
         // Featured Work Section
-        featured_work_title: 'Trabajo Destacado',
-        featured_work_desc: 'Construyo sitios web limpios y funcionales que ayudan a las pequeñas empresas a ser encontradas en línea.',
+        featured_work_title: 'Mis Proyectos',
+        featured_work_desc: 'Hago sitios web limpios y fáciles de usar que ayudan a los negocios pequeños a aparecer en internet.',
 
         // Project 1 - M&G Landscaping
         project_mg_title: 'M&G Landscaping',
-        project_mg_category: 'Empresa de Jardinería',
-        project_mg_desc: 'Sitio web profesional de jardinería que muestra servicios, galería de proyectos y testimonios de clientes para atraer clientes residenciales y comerciales locales.',
+        project_mg_category: 'Jardinería',
+        project_mg_desc: 'Sitio web de jardinería que muestra los servicios, fotos del trabajo y lo que dicen los clientes para atraer más gente.',
         project_mg_view: 'Ver Proyecto',
 
         // Project 2 - TAAG
         project_taag_title: 'TAAG Quality Construction Inc.',
-        project_taag_category: 'Restaurante y Negocio',
-        project_taag_desc: 'Sitio web moderno para restaurante con menús en línea, reservas y promoción de eventos para mejorar la experiencia de comida.',
+        project_taag_category: 'Concreto y Albañilería',
+        project_taag_desc: 'Sitio web moderno de construcción que muestra los trabajos de concreto y albañilería que hacen para clientes.',
         project_taag_view: 'Ver Proyecto',
 
-        // Project 3 - Unidos Rocha
+        // Project 3 - El Sarape
+        project_elsarape_title: 'El Sarape',
+        project_elsarape_category: 'Restaurante',
+        project_elsarape_desc: 'Sitio web de restaurante familiar en Silvis, IL que muestra el menú, ubicación y cómo contactarlos.',
+        project_elsarape_view: 'Ver Proyecto',
+
+        // Project 4 - Unidos Rocha
         project_unidos_title: 'Unidos Rocha',
-        project_unidos_category: 'Negocio Hispano',
-        project_unidos_desc: 'Sitio web culturalmente responsivo que sirve a la comunidad hispana con contenido bilingüe y representación auténtica de negocios locales.',
+        project_unidos_category: 'Jardinería y Remoción de Nieve',
+        project_unidos_desc: 'Servicios profesionales de jardinería y remoción de nieve sirviendo a la comunidad local con mantenimiento exterior confiable todo el año.',
         project_unidos_view: 'Ver Proyecto',
 
-        view_all_work: 'Ver Todo el Trabajo →',
+        view_all_work: 'Ver Todos los Proyectos →',
 
         // Mobile First Section
-        mobile_title: 'Diseñado para móviles primero.',
-        mobile_desc: 'Cada sitio web está diseñado pensando primero en el diseño móvil para garantizar una experiencia simple y fácil en todos los dispositivos.',
-        mobile_responsive: 'Diseño Responsivo',
-        mobile_touch: 'Compatible con Tacto',
-        mobile_fast: 'Carga Rápida',
+        mobile_title: 'Hecho para celulares primero.',
+        mobile_desc: 'Cada sitio web está pensado para celulares primero para que funcione bien en todos los dispositivos.',
+        mobile_responsive: 'Se adapta a cualquier pantalla',
+        mobile_touch: 'Fácil de usar con el dedo',
+        mobile_fast: 'Carga rápido',
 
         // How I Work + What You Get Section
-        how_work_title: 'Cómo Trabajo + Lo Que Recibes',
-        how_work_subtitle: 'Un proceso simple, entregables claros',
+        how_work_title: 'Cómo Trabajo + Lo Que Te Doy',
+        how_work_subtitle: 'Proceso sencillo, resultados claros',
 
         how_work_section: 'Cómo Trabajo',
-        step1_title: 'Envíame tu información',
-        step1_desc: 'Envías tus datos de contacto, información del negocio, fotos que quieres en el sitio y enlaces de redes sociales.',
+        step1_title: 'Mándame tu información',
+        step1_desc: 'Me mandas tu contacto, información del negocio, fotos que quieras en el sitio y tus redes sociales.',
         step2_title: 'Diseño y Construcción',
-        step2_desc: 'Crearé un sitio web limpio y moderno adaptado a tu negocio',
+        step2_desc: 'Hago un sitio web limpio y moderno para tu negocio',
         step3_title: 'Lanzamiento',
-        step3_desc: 'Te enviaré vistas previas del sitio. Una vez que todo se ve bien, configuramos tu dominio personalizado y lo publicamos en vivo.',
+        step3_desc: 'Te mando vistas previas del sitio. Cuando todo se vea bien, ponemos tu dominio y lo publicamos.',
 
-        what_get_section: 'Lo Que Recibes',
-        deliverable1: 'Sitio web de escritorio diseñado para su negocio',
-        deliverable2: 'Diseño responsivo compatible con móviles',
-        deliverable3: 'Formularios de contacto para que los clientes puedan comunicarse fácilmente',
-        deliverable4: 'Integración de clic para llamar por teléfono y WhatsApp',
-        deliverable5: 'Configuración básica de SEO para visibilidad',
-        deliverable6: 'Guía de configuración de hosting',
-        deliverable7: 'Guía de configuración de dominio personalizado (tunegocio.com)',
-        deliverable8: 'Rendimiento de carga rápida',
-        deliverable9: 'Soporte y ediciones pequeñas después del lanzamiento',
+        what_get_section: 'Lo Que Te Doy',
+        deliverable1: 'Sitio web para computadoras',
+        deliverable2: 'Diseño que funciona en celulares',
+        deliverable3: 'Formularios para que los clientes te escriban',
+        deliverable4: 'Botones para llamar y WhatsApp',
+        deliverable5: 'SEO básico para que te encuentren',
+        deliverable6: 'Ayuda con el hosting',
+        deliverable7: 'Ayuda con tu dominio (tunegocio.com)',
+        deliverable8: 'Sitio web que carga rápido',
+        deliverable9: 'Ayuda después de lanzar el sitio',
 
         // About Preview Section
-        about_preview_title: 'Acerca de Mí',
-        about_preview_p1: 'Actualmente estoy cursando mi Maestría en Ciencias de la Computación en Northern Illinois University mientras construyo sitios web para empresas locales en mi comunidad.',
-        about_preview_p2: 'Empecé a hacer esto como una manera de seguir aprendiendo y creciendo como desarrollador, pero rápidamente se convirtió en algo que disfruto genuinamente. Me encanta ayudar a las pequeñas empresas a crear una presencia profesional en línea que se sienta personal y auténtica.',
-        about_preview_p3: 'Aprendo algo nuevo con cada proyecto. Probablemente verá mi estilo evolucionar a medida que crezco.',
-        learn_more: 'Conocer Más →',
+        about_preview_title: 'Sobre Mí',
+        about_preview_p1: 'Estoy estudiando mi Maestría en Computación en Northern Illinois University mientras hago sitios web para negocios locales en mi comunidad.',
+        about_preview_p2: 'Empecé esto para seguir aprendiendo como programador, pero ahora me gusta mucho. Me encanta ayudar a los negocios pequeños a tener un sitio web profesional pero que se sienta personal.',
+        about_preview_p3: 'Aprendo algo nuevo con cada proyecto. Vas a ver cómo mi estilo cambia mientras sigo creciendo.',
+        learn_more: 'Saber Más →',
 
         // Footer CTA
-        footer_cta_title: 'Contáctame para comenzar.',
-        footer_cta_desc: '¿Listo para establecer su presencia profesional en línea? Hablemos de cómo podemos crear un sitio web que represente su negocio con autenticidad y cuidado.',
-        start_project: 'Comenzar Proyecto',
+        footer_cta_title: 'Contáctame para empezar.',
+        footer_cta_desc: '¿Listo para tener tu sitio web? Hablemos de cómo podemos hacer un sitio que represente tu negocio de verdad.',
+        start_project: 'Empezar Proyecto',
 
         // Contact Info
         contact_whatsapp_label: 'WhatsApp',
@@ -304,84 +321,89 @@ const translations = {
 
         // Work Page
         work_mg_tag: 'Jardinería',
-        work_mg_feature1: 'Diseño responsivo móvil',
-        work_mg_feature2: 'Exhibición de servicios',
+        work_mg_feature1: 'Funciona en celulares',
+        work_mg_feature2: 'Muestra los servicios',
         work_mg_feature3: 'Testimonios de clientes',
 
-        work_taag_tag: 'Restaurante',
-        work_taag_feature1: 'Reservas en línea',
-        work_taag_feature2: 'Menú digital',
-        work_taag_feature3: 'Promoción de eventos',
+        work_taag_tag: 'Construcción',
+        work_taag_feature1: 'Trabajos de concreto',
+        work_taag_feature2: 'Albañilería',
+        work_taag_feature3: 'Proyectos comerciales',
 
-        work_unidos_tag: 'Negocio Comunitario',
-        work_unidos_feature1: 'Soporte bilingüe',
-        work_unidos_feature2: 'Enfoque comunitario',
-        work_unidos_feature3: 'Autenticidad cultural',
+        work_elsarape_tag: 'Restaurante',
+        work_elsarape_feature1: 'Menú en línea',
+        work_elsarape_feature2: 'Ubicación y horas',
+        work_elsarape_feature3: 'Contacto fácil',
 
-        work_cta_title: '¿Listo para comenzar su proyecto?',
-        work_cta_desc: 'Hablemos de cómo podemos crear una presencia profesional en línea para su negocio.',
+        work_unidos_tag: 'Jardinería',
+        work_unidos_feature1: 'Servicios de jardinería',
+        work_unidos_feature2: 'Remoción de nieve',
+        work_unidos_feature3: 'Mantenimiento todo el año',
+
+        work_cta_title: '¿Listo para empezar tu proyecto?',
+        work_cta_desc: 'Hablemos de cómo podemos hacer un sitio web profesional para tu negocio.',
         get_in_touch: 'Contactar',
 
         // About Page
-        about_title: 'Acerca de Mí',
-        about_p1: 'Soy estudiante de Ciencias de la Computación en Northern Illinois University. Construyo sitios web para empresas locales porque entiendo lo que las pequeñas empresas necesitan para ser encontradas en línea.',
-        about_p2: 'Me enfoco en diseños simples y limpios que funcionan bien y no cuestan una fortuna. Sin configuraciones complicadas ni charlas técnicas confusas - solo sitios web directos que ayudan a su negocio a crecer.',
+        about_title: 'Sobre Mí',
+        about_p1: 'Soy estudiante de Computación en Northern Illinois University. Hago sitios web para negocios locales porque sé lo que necesitan los negocios pequeños para aparecer en internet.',
+        about_p2: 'Me enfoco en diseños sencillos y limpios que funcionan bien y no cuestan mucho. Sin cosas complicadas ni palabras técnicas raras - solo sitios web que ayudan a tu negocio a crecer.',
         contact_me: 'Contactarme →',
 
         education_title: 'Mi Educación',
-        education_desc: 'Estudio Ciencias de la Computación en NIU y me enfoco en desarrollo web. Mis clases me dan las habilidades técnicas para construir sitios web que realmente funcionan bien para las empresas.',
-        education_degree: 'Ciencias de la Computación, Lic.',
+        education_desc: 'Estudio Computación en NIU y me enfoco en hacer sitios web. Mis clases me dan las habilidades técnicas para hacer sitios web que funcionan bien para los negocios.',
+        education_degree: 'Computación, Lic.',
         education_focus: 'Desarrollo Web y Diseño',
-        education_grad: 'Graduación Esperada: 2027',
+        education_grad: 'Graduación: 2027',
 
         philosophy_title: 'Cómo Trabajo',
-        philosophy_1_title: 'Enfoque en el Cliente',
-        philosophy_1_desc: 'Construyo sitios web que funcionan para sus clientes - fáciles de usar y encontrar lo que necesitan.',
+        philosophy_1_title: 'Pienso en el Cliente',
+        philosophy_1_desc: 'Hago sitios web que funcionan para tus clientes - fáciles de usar y encontrar lo que necesitan.',
         philosophy_2_title: 'Honesto y Confiable',
-        philosophy_2_desc: 'Construyo sitios web que realmente funcionan y muestran de qué se trata realmente su negocio.',
-        philosophy_3_title: 'Primero Móvil',
-        philosophy_3_desc: 'Me aseguro de que su sitio web funcione muy bien en teléfonos ya que es donde la mayoría de los clientes lo encontrarán.',
+        philosophy_2_desc: 'Hago sitios web que funcionan de verdad y muestran lo que hace tu negocio.',
+        philosophy_3_title: 'Primero el Celular',
+        philosophy_3_desc: 'Me aseguro de que tu sitio web funcione muy bien en celulares porque ahí es donde la mayoría de clientes te van a encontrar.',
 
-        skills_title: 'Habilidades Técnicas',
-        skills_frontend: 'Desarrollo Frontend',
-        skill_html: 'HTML5 y Marcado Semántico',
+        skills_title: 'Mis Habilidades',
+        skills_frontend: 'Desarrollo Web',
+        skill_html: 'HTML5',
         skill_css: 'CSS3 y Tailwind CSS',
-        skill_js: 'JavaScript e Interactividad',
+        skill_js: 'JavaScript',
         skill_responsive: 'Diseño Responsivo',
-        skills_design: 'Diseño y UX',
-        skill_ux: 'Diseño de Experiencia de Usuario',
-        skill_accessibility: 'Accesibilidad (WCAG)',
-        skill_performance: 'Optimización de Rendimiento',
-        skill_seo: 'Mejores Prácticas de SEO',
+        skills_design: 'Diseño',
+        skill_ux: 'Experiencia de Usuario',
+        skill_accessibility: 'Accesibilidad',
+        skill_performance: 'Velocidad',
+        skill_seo: 'SEO',
 
         about_cta_title: 'Trabajemos juntos',
-        about_cta_desc: 'Me apasiona ayudar a las empresas locales a establecer su presencia en línea. Hablemos de cómo podemos crear un sitio web que represente su negocio con autenticidad y profesionalismo.',
+        about_cta_desc: 'Me gusta ayudar a los negocios locales a tener su sitio web. Hablemos de cómo podemos hacer un sitio que represente tu negocio de verdad.',
 
         // Contact Page
         form_title: 'Enviar Mensaje',
-        form_name_label: 'Su Nombre *',
+        form_name_label: 'Tu Nombre *',
         form_name_placeholder: 'Juan Pérez',
-        form_email_label: 'Correo Electrónico *',
+        form_email_label: 'Correo *',
         form_email_placeholder: 'juan@ejemplo.com',
         form_business_label: 'Nombre del Negocio',
         form_business_placeholder: 'Jardinería Pérez',
-        form_phone_label: 'Número de Teléfono',
+        form_phone_label: 'Teléfono',
         form_phone_placeholder: '(815) 503-2302',
         form_message_label: 'Detalles del Proyecto *',
-        form_message_placeholder: 'Cuénteme sobre su negocio y qué tipo de sitio web está buscando...',
+        form_message_placeholder: 'Cuéntame sobre tu negocio y qué tipo de sitio web buscas...',
         form_submit: 'Enviar Mensaje',
-        form_success: '¡Gracias por su mensaje! Le responderé dentro de 24 horas.',
+        form_success: '¡Gracias por tu mensaje! Te respondo en 24 horas.',
 
-        contact_other_title: 'Otras Formas de Conectar',
-        contact_email_best: 'Mejor para discusiones detalladas de proyectos',
-        contact_whatsapp_quick: 'Preguntas rápidas y actualizaciones de proyecto',
-        contact_facebook_follow: 'Siga mi trabajo y actualizaciones',
+        contact_other_title: 'Otras Formas de Contactar',
+        contact_email_best: 'Mejor para hablar del proyecto',
+        contact_whatsapp_quick: 'Preguntas rápidas y actualizaciones',
+        contact_facebook_follow: 'Sigue mi trabajo y actualizaciones',
 
         response_time_title: 'Tiempo de Respuesta',
-        response_time_desc: 'Típicamente respondo mensajes dentro de 24 horas. Para consultas urgentes, WhatsApp es la forma más rápida de contactarme.',
+        response_time_desc: 'Normalmente respondo en 24 horas. Para cosas urgentes, WhatsApp es lo más rápido.',
 
         service_area_title: 'Área de Servicio',
-        service_area_desc: 'Trabajo con empresas en todo Illinois, con enfoque especial en la región del Norte de Illinois incluyendo DeKalb, Sycamore y comunidades cercanas.',
+        service_area_desc: 'Trabajo con negocios en todo Illinois, especialmente en el norte incluyendo DeKalb, Sycamore y comunidades cercanas.',
     }
 };
 
@@ -634,12 +656,38 @@ function initWhatsAppButton() {
     document.documentElement.lang = savedLang;
 })();
 
+// Mobile image cycling animation
+function initMobileImageCycling() {
+    const images = document.querySelectorAll('.mobile-image');
+    if (images.length === 0) return;
+
+    let currentIndex = 0;
+    const cycleInterval = 3000; // 3 seconds
+
+    function cycleImages() {
+        // Fade out current image
+        images[currentIndex].classList.remove('opacity-100');
+        images[currentIndex].classList.add('opacity-0');
+
+        // Move to next image
+        currentIndex = (currentIndex + 1) % images.length;
+
+        // Fade in next image
+        images[currentIndex].classList.remove('opacity-0');
+        images[currentIndex].classList.add('opacity-100');
+    }
+
+    // Start cycling
+    setInterval(cycleImages, cycleInterval);
+}
+
 // Initialize all functionality
 document.addEventListener('DOMContentLoaded', () => {
     initMobileMenu();
     initDesktopMenu();
     initWhatsAppButton();
     initLanguageToggle();
+    initMobileImageCycling();
 
     // Add loaded class to body for CSS transitions
     document.body.classList.add('loaded');
