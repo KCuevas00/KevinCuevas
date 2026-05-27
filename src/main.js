@@ -46,19 +46,24 @@ const translations = {
         project_mg_desc: 'Professional landscaping website showcasing services and a portfolio gallery to attract local residential and commercial clients.',
         project_mg_view: 'View Project',
 
-        // Project 2 - TAAG
+        // Project 2 - JR ProService
+        project_jrpro_title: 'JR ProService',
+        project_jrpro_category: 'Painting & Drywall',
+        project_jrpro_desc: 'Professional painting and drywall services including interior/exterior painting, accent walls, deck staining, wallpaper removal, commercial work, and drywall repair.',
+        project_jrpro_view: 'View Project',
+        // Project 3 - TAAG
         project_taag_title: 'TAAG Quality Construction Inc.',
         project_taag_category: 'Concrete & Masonry',
         project_taag_desc: 'Professional construction website showcasing concrete and masonry work for residential and commercial projects.',
         project_taag_view: 'View Project',
 
-        // Project 3 - El Sarape
+        // Project 4 - El Sarape
         project_elsarape_title: 'El Sarape',
         project_elsarape_category: 'Restaurant',
         project_elsarape_desc: 'Family-owned Mexican restaurant website in Silvis, IL featuring menu, location, and contact information.',
         project_elsarape_view: 'View Project',
 
-        // Project 4 - Unidos Rocha
+        // Project 5 - Unidos Rocha
         project_unidos_title: 'Unidos Rocha',
         project_unidos_category: 'Landscaping & Snow Removal',
         project_unidos_desc: 'Professional landscaping and snow removal services serving the local community with reliable, year round outdoor maintenance.',
@@ -95,6 +100,8 @@ const translations = {
         deliverable7: 'Custom domain setup guidance (yourbusiness.com)',
         deliverable8: 'Fast loading performance',
         deliverable9: 'Post launch support and small edits',
+        deliverable10: 'QR code generation and integration',
+        qr_code_example: 'Example QR code for your business',
 
         // About Preview Section
         about_preview_title: 'About Me',
@@ -130,6 +137,10 @@ const translations = {
         work_mg_feature1: 'Mobile responsive design',
         work_mg_feature2: 'Service showcase',
         work_mg_feature3: 'Clean design',
+        work_jrpro_tag: 'Painting',
+        work_jrpro_feature1: 'Interior & exterior painting',
+        work_jrpro_feature2: 'Drywall repair & patching',
+        work_jrpro_feature3: 'Commercial & residential',
 
         work_taag_tag: 'Construction',
         work_taag_feature1: 'Concrete work',
@@ -245,19 +256,24 @@ const translations = {
         project_mg_desc: 'Página web de jardinería con fotos del trabajo y los servicios que ofrecen.',
         project_mg_view: 'Ver Proyecto',
 
-        // Project 2 - TAAG
+        // Project 2 - JR ProService
+        project_jrpro_title: 'JR ProService',
+        project_jrpro_category: 'Pintura y Drywall',
+        project_jrpro_desc: 'Servicios profesionales de pintura y drywall incluyendo pintura interior/exterior, paredes de acento, manchado de decks, remoción de papel tapiz, trabajo comercial y reparación de drywall.',
+        project_jrpro_view: 'Ver Proyecto',
+        // Project 3 - TAAG
         project_taag_title: 'TAAG Quality Construction Inc.',
         project_taag_category: 'Construcción',
         project_taag_desc: 'Página web de construcción que muestra los trabajos de concreto que han hecho.',
         project_taag_view: 'Ver Proyecto',
 
-        // Project 3 - El Sarape
+        // Project 4 - El Sarape
         project_elsarape_title: 'El Sarape',
         project_elsarape_category: 'Restaurante',
         project_elsarape_desc: 'Página web de restaurante familiar en Silvis, IL con el menú, horario y contacto.',
         project_elsarape_view: 'Ver Proyecto',
 
-        // Project 4 - Unidos Rocha
+        // Project 5 - Unidos Rocha
         project_unidos_title: 'Unidos Rocha',
         project_unidos_category: 'Jardinería y Nieve',
         project_unidos_desc: 'Página web para un negocio de jardinería y limpieza de nieve durante todo el año.',
@@ -294,6 +310,8 @@ const translations = {
         deliverable7: 'Ayuda para su dominio (sunegocio.com)',
         deliverable8: 'Página que carga rápido',
         deliverable9: 'Cambios pequeños después de publicar',
+        deliverable10: 'Generación e integración de códigos QR',
+        qr_code_example: 'Ejemplo de código QR para su negocio',
 
         // About Preview Section
         about_preview_title: 'Sobre Mí',
@@ -329,6 +347,10 @@ const translations = {
         work_mg_feature1: 'Se ve bien en celulares',
         work_mg_feature2: 'Muestra los servicios',
         work_mg_feature3: 'Diseño limpio',
+        work_jrpro_tag: 'Pintura',
+        work_jrpro_feature1: 'Pintura interior y exterior',
+        work_jrpro_feature2: 'Reparación de drywall',
+        work_jrpro_feature3: 'Comercial y residencial',
 
         work_taag_tag: 'Construcción',
         work_taag_feature1: 'Trabajos de concreto',
