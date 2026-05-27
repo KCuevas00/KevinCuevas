@@ -2,7 +2,7 @@
 // ASSET IMPORTS - Vite will handle hashing and path resolution
 // ============================================================
 import gradImage from '../Photos/grad.jpeg';
-import niuImage from '../Photos/niu.JPEG';
+import niuImage from '../Photos/niu.jpeg';
 import img8592Image from '../Photos/IMG_8592.jpeg';
 
 // ============================================================
