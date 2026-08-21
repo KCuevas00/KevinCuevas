@@ -1,14 +1,11 @@
 // ============================================================
-// ASSET IMPORTS - Vite will handle hashing and path resolution
-// ============================================================
-import gradImage from '../Photos/grad.jpeg';
-import niuImage from '../Photos/niu.jpeg';
-import img8592Image from '../Photos/IMG_8592.jpeg';
-
-// ============================================================
-// LANGUAGE SYSTEM - Must run BEFORE DOM is visible
+// KEVIN CUEVAS PORTFOLIO - MAIN JAVASCRIPT (main.js)
+// Pure Vanilla JavaScript - No Bundler, Framework, or Vite Required
 // ============================================================
 
+// ============================================================
+// 1. TRANSLATION DICTIONARY (EN & ES)
+// ============================================================
 const translations = {
     en: {
         // Navigation
@@ -22,15 +19,15 @@ const translations = {
         // Hero - Index
         hero_title: 'Websites for small businesses in Illinois.',
         hero_name: 'Kevin Cuevas',
-        //hero_education: 'Northern Illinois University — Computer Science',
+        hero_education: 'Northern Illinois University — Computer Science',
 
         // Hero - Work
         hero_work_title: 'Project Gallery',
-        //hero_work_by: 'by Kevin Cuevas.',
+        hero_work_by: 'by Kevin Cuevas.',
 
         // Hero - About
         hero_about_title: 'About Kevin',
-        hero_about_desc: 'Computer Science grad from Northern Illinois University, currently completing my Master\'s. I build websites for local businesses across Illinois.',
+        hero_about_desc: "Computer Science grad from Northern Illinois University, currently completing my Master's. I build websites for local businesses across Illinois.",
 
         // Hero - Contact
         hero_contact_title: 'Get in Touch',
@@ -51,6 +48,7 @@ const translations = {
         project_jrpro_category: 'Painting & Drywall',
         project_jrpro_desc: 'Professional painting and drywall services including interior/exterior painting, accent walls, deck staining, wallpaper removal, commercial work, and drywall repair.',
         project_jrpro_view: 'View Project',
+
         // Project 3 - TAAG
         project_taag_title: 'TAAG Quality Construction Inc.',
         project_taag_category: 'Concrete & Masonry',
@@ -86,9 +84,9 @@ const translations = {
         step1_title: 'Send me your info',
         step1_desc: 'You send your contact details, business information, photos you want on the site, and any social media links.',
         step2_title: 'Design & Build',
-        step2_desc: 'I\'ll create a clean, modern website tailored to your business',
+        step2_desc: "I'll create a clean, modern website tailored to your business.",
         step3_title: 'Launch',
-        step3_desc: 'I\'ll send you previews of the site. Once everything looks good, we set up your custom domain and publish it live.',
+        step3_desc: "I'll send you previews of the site. Once everything looks good, we set up your custom domain and publish it live.",
 
         what_get_section: 'What You Get',
         deliverable1: 'Desktop website designed for your business',
@@ -107,15 +105,15 @@ const translations = {
         about_preview_title: 'About Me',
         about_preview_p1: "I'm working on my Master's in Computer Science at Northern Illinois University while building websites for local businesses in my community.",
         about_preview_p2: 'I started doing this as a way to keep growing as a developer, but it quickly became something I genuinely enjoy. I love helping small businesses have a real online presence.',
-        about_preview_p3: 'I learn something new with every project. You\'ll probably see my style evolve as I grow.',
+        about_preview_p3: "I learn something new with every project. You'll probably see my style evolve as I grow.",
         learn_more: 'Learn More →',
 
         // Footer CTA
-        footer_cta_title: "Contact me to get started.",
-        footer_cta_desc: 'I\'m passionate about helping local businesses establish their online presence. Let\'s talk about how we can create a website that represents your business with authenticity and professionalism.',
+        footer_cta_title: 'Contact me to get started.',
+        footer_cta_desc: "I'm passionate about helping local businesses establish their online presence. Let's talk about how we can create a website that represents your business with authenticity and professionalism.",
         start_project: 'Start a Project',
 
-        // Contact Info
+        // Contact Info Labels
         contact_whatsapp_label: 'WhatsApp',
         contact_email_label: 'Email',
         contact_facebook_label: 'Facebook',
@@ -164,7 +162,7 @@ const translations = {
         // About Page
         about_title: 'About Me',
         about_p1: 'I build websites for local businesses because I know what small businesses need to get found online.',
-        about_p2: 'I focus on clean designs that work well and don\'t cost a fortune. No complicated setups or confusing tech talk, just a straightforward website that helps your business grow.',
+        about_p2: "I focus on clean designs that work well and don't cost a fortune. No complicated setups or confusing tech talk, just a straightforward website that helps your business grow.",
         contact_me: 'Contact Me →',
 
         education_title: 'My Education',
@@ -184,7 +182,7 @@ const translations = {
         skills_title: 'Technical Skills',
         skills_frontend: 'Frontend Development',
         skill_html: 'HTML5 & Semantic Markup',
-        skill_css: 'CSS3 & Tailwind CSS',
+        skill_css: 'CSS3 Styling & Layout',
         skill_js: 'JavaScript & Interactivity',
         skill_responsive: 'Responsive Design',
         skills_design: 'Design & UX',
@@ -194,7 +192,7 @@ const translations = {
         skill_seo: 'SEO Best Practices',
 
         about_cta_title: "Let's talk",
-        about_cta_desc: 'I\'m passionate about helping local businesses establish their online presence. Let\'s talk about how we can create a website that represents your business with authenticity and professionalism.',
+        about_cta_desc: "I'm passionate about helping local businesses establish their online presence. Let's talk about how we can create a website that represents your business with authenticity and professionalism.",
 
         // Contact Page
         form_title: 'Send a Message',
@@ -207,7 +205,7 @@ const translations = {
         form_phone_label: 'Phone Number',
         form_phone_placeholder: '(815) 503-2302',
         form_message_label: 'Project Details *',
-        form_message_placeholder: 'Tell me about your business and what kind of website you\'re looking for...',
+        form_message_placeholder: "Tell me about your business and what kind of website you're looking for...",
         form_submit: 'Send Message',
         form_success: "Thank you for your message! I'll get back to you within 24 hours.",
 
@@ -220,7 +218,7 @@ const translations = {
         response_time_desc: 'I typically respond to messages within 24 hours. For urgent project inquiries, WhatsApp is the fastest way to reach me.',
 
         service_area_title: 'Service Area',
-        service_area_desc: 'I work with businesses throughout Illinois, with special focus on the Northern Illinois region including DeKalb, Sycamore, and surrounding communities.',
+        service_area_desc: 'I work with businesses throughout Illinois, with special focus on the Northern Illinois region including DeKalb, Sycamore, and surrounding communities.'
     },
     es: {
         // Navigation
@@ -234,9 +232,11 @@ const translations = {
         // Hero - Index
         hero_title: 'Páginas web para negocios pequeños en Illinois.',
         hero_name: 'Kevin Cuevas',
+        hero_education: 'Northern Illinois University — Ciencias de la Computación',
 
         // Hero - Work
         hero_work_title: 'Mis Proyectos',
+        hero_work_by: 'por Kevin Cuevas.',
 
         // Hero - About
         hero_about_title: 'Sobre Kevin',
@@ -261,6 +261,7 @@ const translations = {
         project_jrpro_category: 'Pintura y Drywall',
         project_jrpro_desc: 'Servicios profesionales de pintura y drywall incluyendo pintura interior/exterior, paredes de acento, manchado de decks, remoción de papel tapiz, trabajo comercial y reparación de drywall.',
         project_jrpro_view: 'Ver Proyecto',
+
         // Project 3 - TAAG
         project_taag_title: 'TAAG Quality Construction Inc.',
         project_taag_category: 'Construcción',
@@ -325,7 +326,7 @@ const translations = {
         footer_cta_desc: '¿Listo para tener su página web? Hablemos de lo que necesita su negocio.',
         start_project: 'Empezar',
 
-        // Contact Info
+        // Contact Info Labels
         contact_whatsapp_label: 'WhatsApp',
         contact_email_label: 'Correo',
         contact_facebook_label: 'Facebook',
@@ -394,7 +395,7 @@ const translations = {
         skills_title: 'Lo Que Sé Hacer',
         skills_frontend: 'Páginas Web',
         skill_html: 'HTML5',
-        skill_css: 'CSS3 y Tailwind CSS',
+        skill_css: 'CSS3',
         skill_js: 'JavaScript',
         skill_responsive: 'Diseño para celulares',
         skills_design: 'Diseño',
@@ -430,29 +431,28 @@ const translations = {
         response_time_desc: 'Normalmente respondo en 24 horas. Para algo urgente, WhatsApp es lo más rápido.',
 
         service_area_title: 'Área de Servicio',
-        service_area_desc: 'Trabajo con negocios en todo Illinois, especialmente en el norte como DeKalb, Sycamore y alrededores.',
+        service_area_desc: 'Trabajo con negocios en todo Illinois, especialmente en el norte como DeKalb, Sycamore y alrededores.'
     }
 };
 
-// Get saved language or default to English
+// ============================================================
+// 2. LANGUAGE ENGINE
+// ============================================================
 function getSavedLanguage() {
     return localStorage.getItem('preferredLanguage') || 'en';
 }
 
-// Save language preference
 function saveLanguage(lang) {
     localStorage.setItem('preferredLanguage', lang);
 }
 
-// Apply translations to the page
 function applyTranslations(lang) {
     const t = translations[lang];
     if (!t) return;
 
-    // Update all elements with data-translate attribute
     document.querySelectorAll('[data-translate]').forEach(el => {
         const key = el.getAttribute('data-translate');
-        if (t[key]) {
+        if (t[key] !== undefined) {
             if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
                 el.placeholder = t[key];
             } else {
@@ -461,11 +461,9 @@ function applyTranslations(lang) {
         }
     });
 
-    // Update HTML lang attribute
     document.documentElement.lang = lang;
 }
 
-// Update language toggle button states
 function updateLanguageToggleUI(lang) {
     document.querySelectorAll('.language-toggle').forEach(btn => {
         const btnLang = btn.getAttribute('data-lang');
@@ -479,57 +477,67 @@ function updateLanguageToggleUI(lang) {
     });
 }
 
-// Switch language function
 function switchLanguage(lang) {
     if (!translations[lang]) return;
-
     saveLanguage(lang);
     applyTranslations(lang);
     updateLanguageToggleUI(lang);
 }
 
-// Initialize language system
 function initLanguageToggle() {
     const langButtons = document.querySelectorAll('.language-toggle');
-
     langButtons.forEach(btn => {
         btn.addEventListener('click', (e) => {
             e.preventDefault();
             const lang = btn.getAttribute('data-lang');
-            switchLanguage(lang);
+            if (lang) {
+                switchLanguage(lang);
+            }
         });
     });
 
-    // Apply saved language on page load
     const savedLang = getSavedLanguage();
     applyTranslations(savedLang);
     updateLanguageToggleUI(savedLang);
 }
 
-// Mobile menu functionality
+// Early translation execution (run as soon as script evaluates)
+(function initLanguageEarly() {
+    const savedLang = getSavedLanguage();
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => {
+            applyTranslations(savedLang);
+            updateLanguageToggleUI(savedLang);
+        });
+    } else {
+        applyTranslations(savedLang);
+        updateLanguageToggleUI(savedLang);
+    }
+})();
+
+// ============================================================
+// 3. NAVIGATION & MENU CONTROLLERS
+// ============================================================
 function initMobileMenu() {
     const mobileMenuBtn = document.getElementById('mobile-menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
     const closeMenuBtn = document.getElementById('close-menu-btn');
 
-    // Toggle mobile menu
     function toggleMobileMenu() {
         if (!mobileMenu || !mobileMenuBtn) return;
-        
-        const isOpen = !mobileMenu.classList.contains('hidden');
-        
-        if (isOpen) {
-            mobileMenu.classList.add('hidden');
-            mobileMenuBtn.setAttribute('aria-expanded', 'false');
-            document.body.style.overflow = '';
-        } else {
+        const isHidden = mobileMenu.classList.contains('hidden');
+
+        if (isHidden) {
             mobileMenu.classList.remove('hidden');
             mobileMenuBtn.setAttribute('aria-expanded', 'true');
             document.body.style.overflow = 'hidden';
+        } else {
+            mobileMenu.classList.add('hidden');
+            mobileMenuBtn.setAttribute('aria-expanded', 'false');
+            document.body.style.overflow = '';
         }
     }
 
-    // Event listeners for mobile menu
     if (mobileMenuBtn) {
         mobileMenuBtn.addEventListener('click', toggleMobileMenu);
     }
@@ -538,17 +546,19 @@ function initMobileMenu() {
         closeMenuBtn.addEventListener('click', toggleMobileMenu);
     }
 
-    // Close mobile menu when clicking on links
-    const mobileMenuLinks = mobileMenu?.querySelectorAll('a');
-    mobileMenuLinks?.forEach(link => {
+    // Close when clicking internal links
+    const mobileLinks = mobileMenu ? mobileMenu.querySelectorAll('.mobile-menu-link') : [];
+    mobileLinks.forEach(link => {
         link.addEventListener('click', () => {
-            mobileMenu.classList.add('hidden');
-            mobileMenuBtn.setAttribute('aria-expanded', 'false');
-            document.body.style.overflow = '';
+            if (mobileMenu) {
+                mobileMenu.classList.add('hidden');
+                if (mobileMenuBtn) mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
+            }
         });
     });
 
-    // Close mobile menu on escape key
+    // Close on Escape key
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && mobileMenu && !mobileMenu.classList.contains('hidden')) {
             toggleMobileMenu();
@@ -556,134 +566,32 @@ function initMobileMenu() {
     });
 }
 
-// Desktop menu functionality
 function initDesktopMenu() {
-    // Find desktop menu button using data-translate attribute
-    const desktopMenuBtn = document.querySelector('button[data-translate="nav_menu"]');
-    
-    if (desktopMenuBtn) {
+    const desktopMenuBtn = document.querySelector('.desktop-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+
+    if (desktopMenuBtn && mobileMenu) {
         desktopMenuBtn.addEventListener('click', (e) => {
             e.preventDefault();
-            e.stopPropagation();
-            
-            // Toggle mobile menu for desktop as well (reuse same overlay)
-            const mobileMenu = document.getElementById('mobile-menu');
-            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-            
-            if (mobileMenu && mobileMenuBtn) {
-                const isOpen = !mobileMenu.classList.contains('hidden');
-                
-                if (isOpen) {
-                    mobileMenu.classList.add('hidden');
-                    mobileMenuBtn.setAttribute('aria-expanded', 'false');
-                    document.body.style.overflow = '';
-                } else {
-                    mobileMenu.classList.remove('hidden');
-                    mobileMenuBtn.setAttribute('aria-expanded', 'true');
-                    document.body.style.overflow = 'hidden';
-                }
-            }
-        });
-        
-        // Ensure button is clickable
-        desktopMenuBtn.style.pointerEvents = 'auto';
-        desktopMenuBtn.style.cursor = 'pointer';
-    }
-}
+            const isHidden = mobileMenu.classList.contains('hidden');
 
-// Intersection Observer for fade-in animations
-const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
-};
-
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.remove('opacity-0');
-            entry.target.classList.add('animate-fade-in');
-            observer.unobserve(entry.target);
-        }
-    });
-}, observerOptions);
-
-// Observe elements for animation
-document.addEventListener('DOMContentLoaded', () => {
-    const animateElements = document.querySelectorAll('.project-card');
-    animateElements.forEach(el => {
-        el.classList.add('opacity-0');
-        observer.observe(el);
-    });
-});
-
-// Smooth scroll for anchor links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-            target.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            });
-        }
-    });
-});
-
-// Add loading states for images
-document.querySelectorAll('img').forEach(img => {
-    img.addEventListener('load', function() {
-        this.classList.add('loaded');
-    });
-});
-
-// Keyboard navigation enhancement
-document.addEventListener('keydown', (e) => {
-    // Tab navigation enhancement
-    if (e.key === 'Tab') {
-        document.body.classList.add('keyboard-navigation');
-    }
-});
-
-document.addEventListener('mousedown', () => {
-    document.body.classList.remove('keyboard-navigation');
-});
-
-// WhatsApp floating button (placeholder functionality)
-function initWhatsAppButton() {
-    const whatsappBtn = document.querySelector('[aria-label="WhatsApp"]');
-    if (whatsappBtn) {
-        whatsappBtn.addEventListener('click', (e) => {
-            e.preventDefault();
-            // Placeholder for WhatsApp functionality
-            console.log('WhatsApp integration would go here');
-        });
-    }
-}
-
-// EARLY LANGUAGE INITIALIZATION - Run before DOM is visible
-(function initLanguageEarly() {
-    const savedLang = localStorage.getItem('preferredLanguage') || 'en';
-    const t = translations[savedLang];
-    if (!t) return;
-
-    // Apply translations immediately to prevent flash of wrong language
-    document.querySelectorAll('[data-translate]').forEach(el => {
-        const key = el.getAttribute('data-translate');
-        if (t[key]) {
-            if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
-                el.placeholder = t[key];
+            if (isHidden) {
+                mobileMenu.classList.remove('hidden');
+                if (mobileMenuBtn) mobileMenuBtn.setAttribute('aria-expanded', 'true');
+                document.body.style.overflow = 'hidden';
             } else {
-                el.textContent = t[key];
+                mobileMenu.classList.add('hidden');
+                if (mobileMenuBtn) mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
             }
-        }
-    });
+        });
+    }
+}
 
-    // Set HTML lang attribute
-    document.documentElement.lang = savedLang;
-})();
-
-// Mobile image cycling animation
+// ============================================================
+// 4. PHONE SHOWCASE IMAGE CYCLING (INDEX PAGE)
+// ============================================================
 function initMobileImageCycling() {
     const images = document.querySelectorAll('.mobile-image');
     if (images.length === 0) return;
@@ -691,84 +599,82 @@ function initMobileImageCycling() {
     let currentIndex = 0;
     const cycleInterval = 3000; // 3 seconds
 
-    function cycleImages() {
+    setInterval(() => {
         // Fade out current image
         images[currentIndex].classList.remove('opacity-100');
         images[currentIndex].classList.add('opacity-0');
 
-        // Move to next image
+        // Increment index
         currentIndex = (currentIndex + 1) % images.length;
 
         // Fade in next image
         images[currentIndex].classList.remove('opacity-0');
         images[currentIndex].classList.add('opacity-100');
+    }, cycleInterval);
+}
+
+// ============================================================
+// 5. CONTACT FORM HANDLER
+// ============================================================
+function initContactForm() {
+    const contactForm = document.getElementById('contact-form');
+    const formAlert = document.getElementById('form-message');
+
+    if (contactForm && formAlert) {
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const currentLang = getSavedLanguage();
+            const messageText = translations[currentLang]?.form_success || "Thank you for your message! I'll get back to you within 24 hours.";
+
+            formAlert.textContent = messageText;
+            formAlert.classList.remove('hidden');
+
+            contactForm.reset();
+
+            setTimeout(() => {
+                formAlert.classList.add('hidden');
+            }, 6000);
+        });
     }
-
-    // Start cycling
-    setInterval(cycleImages, cycleInterval);
 }
 
-// Set dynamic image paths for Vite assets
-function initDynamicImagePaths() {
-    // Set graduation image src
-    const gradImages = document.querySelectorAll('img[data-asset="grad"]');
-    gradImages.forEach(img => {
-        img.src = gradImage;
-    });
+// ============================================================
+// 6. SCROLL ANIMATIONS (INTERSECTION OBSERVER)
+// ============================================================
+function initScrollAnimations() {
+    if (!('IntersectionObserver' in window)) return;
 
-    // Set NIU image src
-    const niuImages = document.querySelectorAll('img[data-asset="niu"]');
-    niuImages.forEach(img => {
-        img.src = niuImage;
-    });
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -40px 0px'
+    };
 
-    // Set background image src
-    const bgImages = document.querySelectorAll('img[data-asset="bg"]');
-    bgImages.forEach(img => {
-        img.src = img8592Image;
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.remove('opacity-0');
+                entry.target.classList.add('animate-fade-in');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    const animatedItems = document.querySelectorAll('.featured-project-card, .gallery-project-card');
+    animatedItems.forEach(el => {
+        el.classList.add('opacity-0');
+        observer.observe(el);
     });
 }
 
-// Initialize all functionality
+// ============================================================
+// 7. INITIALIZE ALL COMPONENTS
+// ============================================================
 document.addEventListener('DOMContentLoaded', () => {
+    initLanguageToggle();
     initMobileMenu();
     initDesktopMenu();
-    initWhatsAppButton();
-    initLanguageToggle();
     initMobileImageCycling();
-
-    // Add loaded class to body for CSS transitions
-    document.body.classList.add('loaded');
+    initContactForm();
+    initScrollAnimations();
 });
 
-// Run image path initialization immediately (before DOMContentLoaded)
-initDynamicImagePaths();
-
-// Performance optimization: Debounce scroll events
-function debounce(func, wait) {
-    let timeout;
-    return function executedFunction(...args) {
-        const later = () => {
-            clearTimeout(timeout);
-            func(...args);
-        };
-        clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
-    };
-}
-
-// Scroll-based animations (optional enhancement)
-const scrollHandler = debounce(() => {
-    const scrolled = window.pageYOffset;
-    const parallaxElements = document.querySelectorAll('.animate-slow-zoom');
-    
-    parallaxElements.forEach(el => {
-        const speed = 0.5;
-        el.style.transform = `translateY(${scrolled * speed}px)`;
-    });
-}, 10);
-
-// Only add parallax if user prefers motion
-if (window.matchMedia('(prefers-reduced-motion: no-preference)').matches) {
-    window.addEventListener('scroll', scrollHandler);
-}

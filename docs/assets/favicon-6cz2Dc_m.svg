@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <rect fill="transparent" width="64" height="64"/>
-  <g fill="#1a1a1a">
-    <!-- K -->
-    <path d="M12 8 L12 56 L20 56 L20 36 L32 56 L42 56 L28 32 L42 8 L32 8 L20 28 L20 8 Z"/>
-    <!-- C -->
-    <path d="M52 20 C48 16 44 16 40 20 C36 24 36 40 40 44 C44 48 48 48 52 44 L52 36 C50 38 48 38 46 36 C44 34 44 30 46 28 C48 26 50 26 52 28 Z"/>
-  </g>
-</svg>
