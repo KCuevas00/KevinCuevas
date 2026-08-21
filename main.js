@@ -37,31 +37,43 @@ const translations = {
         featured_work_title: 'Featured Work',
         featured_work_desc: 'Clean, easy to use websites that help local businesses get found online.',
 
-        // Project 1 - M&G Landscaping
+        // Project 1 - The Tint Guy
+        project_tintguy_title: 'The Tint Guy',
+        project_tintguy_category: 'Window Tint & Auto Services',
+        project_tintguy_desc: 'Window tinting, vehicle wraps, and auto mechanic service website featuring services, photos, and contact information.',
+        project_tintguy_view: 'View Project',
+
+        // Project 2 - Que Chido Catering
+        project_quechidos_title: 'Que Chido Catering',
+        project_quechidos_category: 'Mexican Food Catering',
+        project_quechidos_desc: 'Mexican food catering business website in Elgin, IL featuring menu packages, party trays, and contact information.',
+        project_quechidos_view: 'View Project',
+
+        // Project 3 - M&G Landscaping
         project_mg_title: 'M&G Landscaping',
         project_mg_category: 'Landscaping Company',
         project_mg_desc: 'Professional landscaping website showcasing services and a portfolio gallery to attract local residential and commercial clients.',
         project_mg_view: 'View Project',
 
-        // Project 2 - JR ProService
+        // Project 4 - JR ProService
         project_jrpro_title: 'JR ProService',
         project_jrpro_category: 'Painting & Drywall',
         project_jrpro_desc: 'Professional painting and drywall services including interior/exterior painting, accent walls, deck staining, wallpaper removal, commercial work, and drywall repair.',
         project_jrpro_view: 'View Project',
 
-        // Project 3 - TAAG
+        // Project 5 - TAAG
         project_taag_title: 'TAAG Quality Construction Inc.',
         project_taag_category: 'Concrete & Masonry',
         project_taag_desc: 'Professional construction website showcasing concrete and masonry work for residential and commercial projects.',
         project_taag_view: 'View Project',
 
-        // Project 4 - El Sarape
+        // Project 6 - El Sarape
         project_elsarape_title: 'El Sarape',
         project_elsarape_category: 'Restaurant',
         project_elsarape_desc: 'Family-owned Mexican restaurant website in Silvis, IL featuring menu, location, and contact information.',
         project_elsarape_view: 'View Project',
 
-        // Project 5 - Unidos Rocha
+        // Project 7 - Unidos Rocha
         project_unidos_title: 'Unidos Rocha',
         project_unidos_category: 'Landscaping & Snow Removal',
         project_unidos_desc: 'Professional landscaping and snow removal services serving the local community with reliable, year round outdoor maintenance.',
@@ -131,6 +143,16 @@ const translations = {
         whatsapp_float_label: 'Contact on WhatsApp',
 
         // Work Page
+        work_tintguy_tag: 'Tint & Auto',
+        work_tintguy_feature1: 'Window tint & wraps',
+        work_tintguy_feature2: 'Auto mechanic services',
+        work_tintguy_feature3: 'Easy contact',
+
+        work_quechidos_tag: 'Catering',
+        work_quechidos_feature1: 'Mexican food menu',
+        work_quechidos_feature2: 'Party & event trays',
+        work_quechidos_feature3: 'Easy contact',
+
         work_mg_tag: 'Landscaping',
         work_mg_feature1: 'Mobile responsive design',
         work_mg_feature2: 'Service showcase',
@@ -250,31 +272,43 @@ const translations = {
         featured_work_title: 'Mis Proyectos',
         featured_work_desc: 'Hago páginas web limpias y fáciles de usar para que los clientes lo encuentren en internet.',
 
-        // Project 1 - M&G Landscaping
+        // Project 1 - The Tint Guy
+        project_tintguy_title: 'The Tint Guy',
+        project_tintguy_category: 'Polarizado y Mecánica',
+        project_tintguy_desc: 'Página web de polarizado de ventanas, wraps y mecánica automotriz con servicios, fotos y contacto.',
+        project_tintguy_view: 'Ver Proyecto',
+
+        // Project 2 - Que Chidos Catering
+        project_quechidos_title: 'Que Chido Catering',
+        project_quechidos_category: 'Catering de Comida Mexicana',
+        project_quechidos_desc: 'Página web de catering de comida mexicana en Elgin, IL con paquetes de menú, charolas para fiestas y contacto.',
+        project_quechidos_view: 'Ver Proyecto',
+
+        // Project 3 - M&G Landscaping
         project_mg_title: 'M&G Landscaping',
         project_mg_category: 'Jardinería',
         project_mg_desc: 'Página web de jardinería con fotos del trabajo y los servicios que ofrecen.',
         project_mg_view: 'Ver Proyecto',
 
-        // Project 2 - JR ProService
+        // Project 4 - JR ProService
         project_jrpro_title: 'JR ProService',
         project_jrpro_category: 'Pintura y Drywall',
         project_jrpro_desc: 'Servicios profesionales de pintura y drywall incluyendo pintura interior/exterior, paredes de acento, manchado de decks, remoción de papel tapiz, trabajo comercial y reparación de drywall.',
         project_jrpro_view: 'Ver Proyecto',
 
-        // Project 3 - TAAG
+        // Project 5 - TAAG
         project_taag_title: 'TAAG Quality Construction Inc.',
         project_taag_category: 'Construcción',
         project_taag_desc: 'Página web de construcción que muestra los trabajos de concreto que han hecho.',
         project_taag_view: 'Ver Proyecto',
 
-        // Project 4 - El Sarape
+        // Project 6 - El Sarape
         project_elsarape_title: 'El Sarape',
         project_elsarape_category: 'Restaurante',
         project_elsarape_desc: 'Página web de restaurante familiar en Silvis, IL con el menú, horario y contacto.',
         project_elsarape_view: 'Ver Proyecto',
 
-        // Project 5 - Unidos Rocha
+        // Project 7 - Unidos Rocha
         project_unidos_title: 'Unidos Rocha',
         project_unidos_category: 'Jardinería y Nieve',
         project_unidos_desc: 'Página web para un negocio de jardinería y limpieza de nieve durante todo el año.',
@@ -344,6 +378,16 @@ const translations = {
         whatsapp_float_label: 'Contactar por WhatsApp',
 
         // Work Page
+        work_tintguy_tag: 'Polarizado y Autos',
+        work_tintguy_feature1: 'Polarizado y wraps',
+        work_tintguy_feature2: 'Servicios de mecánica',
+        work_tintguy_feature3: 'Contacto fácil',
+
+        work_quechidos_tag: 'Catering',
+        work_quechidos_feature1: 'Menú de comida mexicana',
+        work_quechidos_feature2: 'Charolas para fiestas',
+        work_quechidos_feature3: 'Contacto fácil',
+
         work_mg_tag: 'Jardinería',
         work_mg_feature1: 'Se ve bien en celulares',
         work_mg_feature2: 'Muestra los servicios',
