@@ -699,8 +699,9 @@ function initContactForm() {
 }
 
 // ============================================================
-// 7. GALLERY FILTER TABS
-function initGalleryFilter() {
+// 6. SCROLL ANIMATIONS (INTERSECTION OBSERVER)
+// ============================================================
+function initScrollAnimations() {
     if (!('IntersectionObserver' in window)) return;
 
     const observerOptions = {
@@ -718,20 +719,21 @@ function initGalleryFilter() {
         });
     }, observerOptions);
 
-    const animatedItems = document.querySelectorAll('.featured-project-card, .gallery-project-card, .concept1-card, .concept2-card, .browser-card, .spotlight-card');
+    const animatedItems = document.querySelectorAll('.featured-project-card, .gallery-card');
     animatedItems.forEach(el => {
+        el.classList.add('opacity-0');
         observer.observe(el);
     });
 }
 
 // ============================================================
-// 9. INITIALIZE ALL COMPONENTS
+// 7. INITIALIZE ALL COMPONENTS
 // ============================================================
 document.addEventListener('DOMContentLoaded', () => {
+    initLanguageToggle();
     initMobileMenu();
     initDesktopMenu();
     initMobileImageCycling();
     initContactForm();
-    initGalleryFilter();
     initScrollAnimations();
 });
