@@ -96,21 +96,21 @@ const translations = {
         step1_title: 'Send me your info',
         step1_desc: 'You send your contact details, business information, photos you want on the site, and any social media links.',
         step2_title: 'Design & Build',
-        step2_desc: "I'll create a clean, modern website tailored to your business.",
-        step3_title: 'Launch',
-        step3_desc: "I'll send you previews of the site. Once everything looks good, we set up your custom domain and publish it live.",
+        step2_desc: "I'll create a clean, modern website tailored specifically to your business.",
+        step3_title: 'Domain, Hosting & Launch',
+        step3_desc: "I purchase your custom domain through Cloudflare (secure, zero markups), configure fast hosting and SSL security, and deploy everything live. I handle all the technical details end-to-end.",
 
         what_get_section: 'What You Get',
-        deliverable1: 'Desktop website designed for your business',
-        deliverable2: 'Mobile friendly responsive design',
-        deliverable3: 'Contact forms so customers can reach you easily',
-        deliverable4: 'Click to call phone and WhatsApp integration',
-        deliverable5: 'Basic SEO setup for visibility',
-        deliverable6: 'Hosting setup guidance',
-        deliverable7: 'Custom domain setup guidance (yourbusiness.com)',
-        deliverable8: 'Fast loading performance',
-        deliverable9: 'Post launch support and small edits',
-        deliverable10: 'QR code generation and integration',
+        deliverable1: 'Custom desktop website tailored to your business',
+        deliverable2: 'Mobile-first responsive design for phones & tablets',
+        deliverable3: 'Contact forms so customers can reach you directly',
+        deliverable4: 'Click-to-call phone and WhatsApp buttons',
+        deliverable5: 'Basic SEO setup for Google search visibility',
+        deliverable6: 'Fast, secure cloud hosting configured for you',
+        deliverable7: 'Domain registration via Cloudflare (safe, reliable & no hidden fees)',
+        deliverable8: '100% turnkey deployment — I handle all technical setup',
+        deliverable9: 'Post-launch support and edits',
+        deliverable10: 'Custom QR code generation for your business',
         qr_code_example: 'Example QR code for your business',
 
         // About Preview Section
@@ -180,6 +180,8 @@ const translations = {
         work_cta_title: 'Ready to start your project?',
         work_cta_desc: "Let's discuss how we can create a professional online presence for your business.",
         get_in_touch: 'Get in Touch',
+        gallery_badge_count: '7 Live Client Websites',
+        visit_website_btn: 'Visit Website',
 
         // About Page
         about_title: 'About Me',
@@ -293,7 +295,7 @@ const translations = {
         // Project 4 - JR ProService
         project_jrpro_title: 'JR ProService',
         project_jrpro_category: 'Pintura y Drywall',
-        project_jrpro_desc: 'Servicios profesionales de pintura y drywall incluyendo pintura interior/exterior, paredes de acento, manchado de decks, remoción de papel tapiz, trabajo comercial y reparación de drywall.',
+        project_jrpro_desc: 'Página web de pintura y drywall: pintura interior/exterior, paredes decorativas, barnizado de terrazas, remoción de papel tapiz y reparaciones.',
         project_jrpro_view: 'Ver Proyecto',
 
         // Project 5 - TAAG
@@ -329,23 +331,23 @@ const translations = {
 
         how_work_section: 'El Proceso',
         step1_title: 'Mándeme su información',
-        step1_desc: 'Me manda su contacto, información del negocio, fotos y sus redes sociales.',
+        step1_desc: 'Me manda su contacto, información del negocio, fotos que quiera mostrar y sus redes sociales.',
         step2_title: 'Diseño y construcción',
-        step2_desc: 'Hago una página web limpia y bonita para su negocio.',
-        step3_title: 'Se publica',
-        step3_desc: 'Le mando una vista previa. Cuando todo esté bien, ponemos su dominio y se publica.',
+        step2_desc: 'Hago una página web moderna, limpia y hecha a la medida de su negocio.',
+        step3_title: 'Dominio, Hosting y Publicación',
+        step3_desc: 'Yo compro su dominio en Cloudflare (sitio seguro y directo), configuro el hosting rápido con seguridad SSL y publico la página. Me encargo de todo para que usted no tenga complicaciones técnicas.',
 
         what_get_section: 'Lo Que Incluye',
-        deliverable1: 'Página web para su negocio',
-        deliverable2: 'Se ve bien en celulares',
-        deliverable3: 'Formulario para que los clientes le escriban',
-        deliverable4: 'Botón para llamar y WhatsApp',
-        deliverable5: 'SEO básico para que lo encuentren en Google',
-        deliverable6: 'Ayuda para poner el hosting',
-        deliverable7: 'Ayuda para su dominio (sunegocio.com)',
-        deliverable8: 'Página que carga rápido',
-        deliverable9: 'Cambios pequeños después de publicar',
-        deliverable10: 'Generación e integración de códigos QR',
+        deliverable1: 'Página web personalizada para su negocio',
+        deliverable2: 'Diseño adaptable hecho para celulares y computadoras',
+        deliverable3: 'Formulario de contacto para que los clientes le escriban',
+        deliverable4: 'Botones directos para llamadas y WhatsApp',
+        deliverable5: 'SEO básico para aparecer en Google',
+        deliverable6: 'Hosting rápido y seguro configurado para su página',
+        deliverable7: 'Compra de dominio en Cloudflare (seguro, confiable y sin costos ocultos)',
+        deliverable8: 'Servicio 100% completo — yo me encargo de toda la configuración técnica',
+        deliverable9: 'Soporte y cambios después de publicar la página',
+        deliverable10: 'Código QR personalizado para su negocio',
         qr_code_example: 'Ejemplo de código QR para su negocio',
 
         // About Preview Section
@@ -415,6 +417,8 @@ const translations = {
         work_cta_title: '¿Listo para empezar?',
         work_cta_desc: 'Hablemos de su página web.',
         get_in_touch: 'Contactar',
+        gallery_badge_count: '7 Páginas Web Publicadas',
+        visit_website_btn: 'Visitar Sitio Web',
 
         // About Page
         about_title: 'Sobre Mí',
@@ -483,15 +487,25 @@ const translations = {
 // 2. LANGUAGE ENGINE
 // ============================================================
 function getSavedLanguage() {
-    return localStorage.getItem('preferredLanguage') || 'en';
+    try {
+        const lang = localStorage.getItem('preferredLanguage');
+        if (lang === 'es' || lang === 'en') return lang;
+    } catch (e) {
+        // Fallback if localStorage is restricted
+    }
+    return 'en';
 }
 
 function saveLanguage(lang) {
-    localStorage.setItem('preferredLanguage', lang);
+    try {
+        localStorage.setItem('preferredLanguage', lang);
+    } catch (e) {
+        // Ignore localStorage error
+    }
 }
 
 function applyTranslations(lang) {
-    const t = translations[lang];
+    const t = translations[lang] || translations.en;
     if (!t) return;
 
     document.querySelectorAll('[data-translate]').forEach(el => {
@@ -529,15 +543,17 @@ function switchLanguage(lang) {
 }
 
 function initLanguageToggle() {
-    const langButtons = document.querySelectorAll('.language-toggle');
-    langButtons.forEach(btn => {
-        btn.addEventListener('click', (e) => {
+    // Global event listener using closest() to catch flag or text clicks
+    document.addEventListener('click', (e) => {
+        const btn = e.target.closest('.language-toggle');
+        if (btn) {
             e.preventDefault();
+            e.stopPropagation();
             const lang = btn.getAttribute('data-lang');
             if (lang) {
                 switchLanguage(lang);
             }
-        });
+        }
     });
 
     const savedLang = getSavedLanguage();
@@ -683,9 +699,8 @@ function initContactForm() {
 }
 
 // ============================================================
-// 6. SCROLL ANIMATIONS (INTERSECTION OBSERVER)
-// ============================================================
-function initScrollAnimations() {
+// 7. GALLERY FILTER TABS
+function initGalleryFilter() {
     if (!('IntersectionObserver' in window)) return;
 
     const observerOptions = {
@@ -703,22 +718,20 @@ function initScrollAnimations() {
         });
     }, observerOptions);
 
-    const animatedItems = document.querySelectorAll('.featured-project-card, .gallery-project-card');
+    const animatedItems = document.querySelectorAll('.featured-project-card, .gallery-project-card, .concept1-card, .concept2-card, .browser-card, .spotlight-card');
     animatedItems.forEach(el => {
-        el.classList.add('opacity-0');
         observer.observe(el);
     });
 }
 
 // ============================================================
-// 7. INITIALIZE ALL COMPONENTS
+// 9. INITIALIZE ALL COMPONENTS
 // ============================================================
 document.addEventListener('DOMContentLoaded', () => {
-    initLanguageToggle();
     initMobileMenu();
     initDesktopMenu();
     initMobileImageCycling();
     initContactForm();
+    initGalleryFilter();
     initScrollAnimations();
 });
-
