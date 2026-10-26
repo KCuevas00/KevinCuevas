@@ -364,7 +364,7 @@ const translations = {
         nav_close: 'Cerrar menú',
 
         // Hero - Index
-        hero_title: 'Páginas web para negocios pequeños en Illinois.',
+        hero_title: 'Páginas web para negocios en Illinois.',
         hero_name: 'Kevin Cuevas',
         hero_education: 'Northern Illinois University — Ciencias de la Computación',
 
@@ -523,7 +523,7 @@ const translations = {
         // About Preview Section
         about_preview_title: 'Sobre Mí',
         about_preview_p1: 'Estoy estudiando mi Maestría en Computación en Northern Illinois University y hago páginas web para negocios de la comunidad.',
-        about_preview_p2: 'Empecé a hacer esto para seguir aprendiendo, pero ahora me gusta mucho. Me gusta ayudar a los negocios pequeños a tener una buena página web.',
+        about_preview_p2: 'Empecé a hacer esto para seguir aprendiendo, pero ahora me gusta mucho. Me gusta ayudar a los negocios a tener una buena página web.',
         about_preview_p3: 'Con cada proyecto aprendo algo nuevo.',
         learn_more: 'Saber Más →',
 
@@ -642,7 +642,7 @@ const translations = {
 
         // About Page
         about_title: 'Sobre Mí',
-        about_p1: 'Soy estudiante de Computación en Northern Illinois University. Hago páginas web para negocios pequeños porque sé lo que necesitan para que los clientes los encuentren.',
+        about_p1: 'Soy estudiante de Computación en Northern Illinois University. Hago páginas web para negocios porque sé lo que necesitan para que los clientes los encuentren.',
         about_p2: 'Hago diseños limpios que funcionan bien. Sin complicaciones. Solo una buena página web para su negocio.',
         contact_me: 'Contactarme →',
 
