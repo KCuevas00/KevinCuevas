@@ -352,7 +352,7 @@ const translations = {
         response_time_desc: 'I typically respond to messages within 24 hours. For urgent project inquiries, WhatsApp is the fastest way to reach me.',
 
         service_area_title: 'Service Area',
-        service_area_desc: 'I work with businesses throughout Illinois, with special focus on the Northern Illinois region including DeKalb, Sycamore, and surrounding communities.'
+        service_area_desc: 'I work with businesses throughout Illinois, with a focus on DeKalb, Sycamore, Elgin, Aurora, and the Northern Illinois region. Clean, affordable websites that help local businesses get found on Google.'
     },
     es: {
         // Navigation
@@ -374,7 +374,7 @@ const translations = {
 
         // Hero - About
         hero_about_title: 'Sobre Kevin',
-        hero_about_desc: 'Terminé mi carrera en Computación en Northern Illinois University y ahora estoy en mi Maestría. Hago páginas web para negocios en Illinois.',
+        hero_about_desc: 'Terminé mi carrera en Computación en Northern Illinois University y ahora estoy en mi Maestría. Hago páginas web para negocios en DeKalb y en todo Illinois.',
 
         // Hero - Contact
         hero_contact_title: 'Contacto',
@@ -642,7 +642,7 @@ const translations = {
 
         // About Page
         about_title: 'Sobre Mí',
-        about_p1: 'Soy estudiante de Computación en Northern Illinois University. Hago páginas web para negocios porque sé lo que necesitan para que los clientes los encuentren.',
+        about_p1: 'Soy estudiante de Computación en Northern Illinois University. Hago páginas web para negocios en DeKalb y el norte de Illinois porque sé lo que necesitan para que los clientes los encuentren en internet.',
         about_p2: 'Hago diseños limpios que funcionan bien. Sin complicaciones. Solo una buena página web para su negocio.',
         contact_me: 'Contactarme →',
 
@@ -699,7 +699,7 @@ const translations = {
         response_time_desc: 'Normalmente respondo en 24 horas. Para algo urgente, WhatsApp es lo más rápido.',
 
         service_area_title: 'Área de Servicio',
-        service_area_desc: 'Trabajo con negocios en todo Illinois, especialmente en el norte como DeKalb, Sycamore y alrededores.'
+        service_area_desc: 'Trabajo con negocios en todo Illinois, especialmente en DeKalb, Sycamore, Elgin, Aurora y alrededores. Diseño y desarrollo de páginas web profesionales en español e inglés.'
     }
 };
 
