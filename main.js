@@ -79,6 +79,66 @@ const translations = {
         project_unidos_desc: 'Professional landscaping and snow removal services serving the local community with reliable, year round outdoor maintenance.',
         project_unidos_view: 'View Project',
 
+        // Project 8 - Creative Pro Remodeling
+        project_creativepro_title: 'Creative Pro Remodeling',
+        project_creativepro_category: 'Home Remodeling',
+        project_creativepro_desc: 'Custom home remodeling business in Elgin, IL specializing in luxury kitchens, spa bathrooms, finished basements, and 3D architectural renderings.',
+        project_creativepro_view: 'View Project',
+
+        // Project 9 - Green Magic Lawn Care
+        project_greenmagic_title: 'Green Magic Lawn Care',
+        project_greenmagic_category: 'Landscaping & Lawn Care',
+        project_greenmagic_desc: 'Professional landscaping and lawn maintenance service serving Joliet, New Lenox, and southwest Chicago suburbs with cleanups, mulch, and drainage.',
+        project_greenmagic_view: 'View Project',
+
+        // Project 10 - HDZ Tree Company
+        project_hdztree_title: 'HDZ Tree Company',
+        project_hdztree_category: 'Tree Care & Removal',
+        project_hdztree_desc: 'Tree care service company based in Aurora, IL specializing in precision pruning, tree removal, stump grinding, and emergency storm cleanup.',
+        project_hdztree_view: 'View Project',
+
+        // Project 11 - J Ortega\'s Services
+        project_jortega_title: "J Ortega's Services",
+        project_jortega_category: 'Roofing & Gutters',
+        project_jortega_desc: 'Professional roofing replacement, roof repairs, seamless gutters, and gutter guard installation based in Elgin, IL serving surrounding communities.',
+        project_jortega_view: 'View Project',
+
+        // Project 12 - JVL Venue
+        project_jvlvenue_title: 'JVL Venue',
+        project_jvlvenue_category: 'Event Venue & Salon',
+        project_jvlvenue_desc: 'Intimate reception and event space in Plano, IL hosting private celebrations, family milestones, and gatherings for up to 75 guests.',
+        project_jvlvenue_view: 'View Project',
+
+        // Project 13 - N&G Solutions Services
+        project_ngsolutions_title: 'N&G Solutions Services',
+        project_ngsolutions_category: 'Underground Utilities',
+        project_ngsolutions_desc: 'Underground infrastructure and utility specialist providing horizontal directional drilling, fiber optic placement, and civil excavating across the Midwest.',
+        project_ngsolutions_view: 'View Project',
+
+        // Project 14 - Northern Illinois Cleaning
+        project_northerncleaning_title: 'Northern Illinois Cleaning',
+        project_northerncleaning_category: 'Cleaning Services',
+        project_northerncleaning_desc: 'Commercial and residential cleaning company in Northern Illinois delivering scheduled office cleaning, deep cleans, and post-construction turnover.',
+        project_northerncleaning_view: 'View Project',
+
+        // Project 15 - EB Wash Mobil
+        project_ebwash_title: 'EB Wash Mobil',
+        project_ebwash_category: 'Mobile Truck & Fleet Wash',
+        project_ebwash_desc: 'Mobile pressure washing company based in Elgin, IL bringing on-site commercial truck, trailer, and fleet washing directly to customer lots.',
+        project_ebwash_view: 'View Project',
+
+        // Project 16 - Vences Landscaping
+        project_vences_title: 'Vences Landscaping',
+        project_vences_category: 'Landscaping & Pavers',
+        project_vences_desc: 'Residential and commercial landscaping contractor in Belvidere, IL providing precision mowing, paver patios, decorative stone, and seasonal cleanups.',
+        project_vences_view: 'View Project',
+
+        // Project 17 - VV Gallery
+        project_vvgallery_title: 'VV Gallery',
+        project_vvgallery_category: 'Furniture & Mattresses',
+        project_vvgallery_desc: 'Friendly local furniture store website showcasing modular lovesacs, makeup vanities, sectionals, and comfortable mattresses at honest prices.',
+        project_vvgallery_view: 'View Project',
+
         view_all_work: 'View All Work →',
 
         // Mobile First Section
@@ -177,10 +237,60 @@ const translations = {
         work_unidos_feature2: 'Snow removal',
         work_unidos_feature3: 'Year round maintenance',
 
+        work_creativepro_tag: 'Remodeling',
+        work_creativepro_feature1: 'Kitchens & spa bathrooms',
+        work_creativepro_feature2: 'Finished basements',
+        work_creativepro_feature3: '3D design renderings',
+
+        work_greenmagic_tag: 'Lawn Care',
+        work_greenmagic_feature1: 'Lawn maintenance',
+        work_greenmagic_feature2: 'Mulch & yard cleanups',
+        work_greenmagic_feature3: 'Drainage & trimming',
+
+        work_hdztree_tag: 'Tree Care',
+        work_hdztree_feature1: 'Tree removal & trimming',
+        work_hdztree_feature2: 'Stump grinding',
+        work_hdztree_feature3: 'Emergency storm cleanup',
+
+        work_jortega_tag: 'Roofing & Gutters',
+        work_jortega_feature1: 'Roofing repair & replacement',
+        work_jortega_feature2: 'Seamless gutters',
+        work_jortega_feature3: 'Gutter guard installation',
+
+        work_jvlvenue_tag: 'Event Venue',
+        work_jvlvenue_feature1: 'Event salon rental',
+        work_jvlvenue_feature2: 'Private celebrations',
+        work_jvlvenue_feature3: 'Capacity up to 75 guests',
+
+        work_ngsolutions_tag: 'Utilities',
+        work_ngsolutions_feature1: 'Underground utilities',
+        work_ngsolutions_feature2: 'Fiber optic placement',
+        work_ngsolutions_feature3: 'Directional drilling',
+
+        work_northerncleaning_tag: 'Cleaning',
+        work_northerncleaning_feature1: 'Commercial cleaning',
+        work_northerncleaning_feature2: 'Office & turnover cleanup',
+        work_northerncleaning_feature3: 'Residential deep cleans',
+
+        work_ebwash_tag: 'Truck Wash',
+        work_ebwash_feature1: 'Mobile truck washing',
+        work_ebwash_feature2: 'Commercial fleet cleaning',
+        work_ebwash_feature3: 'On-site lot service',
+
+        work_vences_tag: 'Landscaping',
+        work_vences_feature1: 'Lawn mowing & striping',
+        work_vences_feature2: 'Paver patios & stone',
+        work_vences_feature3: 'Fresh mulch & cleanups',
+
+        work_vvgallery_tag: 'Furniture',
+        work_vvgallery_feature1: 'Furniture & mattresses',
+        work_vvgallery_feature2: 'Lovesacs & sectionals',
+        work_vvgallery_feature3: 'Local showroom catalog',
+
         work_cta_title: 'Ready to start your project?',
         work_cta_desc: "Let's discuss how we can create a professional online presence for your business.",
         get_in_touch: 'Get in Touch',
-        gallery_badge_count: '7 Live Client Websites',
+        gallery_badge_count: '17 Live Client Websites',
         visit_website_btn: 'Visit Website',
 
         // About Page
@@ -316,6 +426,66 @@ const translations = {
         project_unidos_desc: 'Página web para un negocio de jardinería y limpieza de nieve durante todo el año.',
         project_unidos_view: 'Ver Proyecto',
 
+        // Project 8 - Creative Pro Remodeling
+        project_creativepro_title: 'Creative Pro Remodeling',
+        project_creativepro_category: 'Remodelación de Casas',
+        project_creativepro_desc: 'Página web de remodelación en Elgin, IL especializada en cocinas de lujo, baños tipo spa, sótanos terminados y diseño en 3D.',
+        project_creativepro_view: 'Ver Proyecto',
+
+        // Project 9 - Green Magic Lawn Care
+        project_greenmagic_title: 'Green Magic Lawn Care',
+        project_greenmagic_category: 'Jardinería y Césped',
+        project_greenmagic_desc: 'Página web de jardinería y mantenimiento de césped en Joliet y suburbios del suroeste con limpiezas, mulch y drenajes.',
+        project_greenmagic_view: 'Ver Proyecto',
+
+        // Project 10 - HDZ Tree Company
+        project_hdztree_title: 'HDZ Tree Company',
+        project_hdztree_category: 'Cuidado de Árboles',
+        project_hdztree_desc: 'Página web de cuidado de árboles en Aurora, IL especializada en poda, remoción de árboles, trituración de tocones y emergencias.',
+        project_hdztree_view: 'Ver Proyecto',
+
+        // Project 11 - J Ortega\'s Services
+        project_jortega_title: "J Ortega's Services",
+        project_jortega_category: 'Techos y Canaletas',
+        project_jortega_desc: 'Página web de reemplazo de techos, reparaciones, canaletas sin costuras y protectores de hojas en Elgin, IL y alrededores.',
+        project_jortega_view: 'Ver Proyecto',
+
+        // Project 12 - JVL Venue
+        project_jvlvenue_title: 'JVL Venue',
+        project_jvlvenue_category: 'Salón de Eventos',
+        project_jvlvenue_desc: 'Página web de salón de eventos en Plano, IL para fiestas privadas, reuniones familiares y celebraciones de hasta 75 personas.',
+        project_jvlvenue_view: 'Ver Proyecto',
+
+        // Project 13 - N&G Solutions Services
+        project_ngsolutions_title: 'N&G Solutions Services',
+        project_ngsolutions_category: 'Servicios Subterráneos',
+        project_ngsolutions_desc: 'Página web de infraestructura subterránea: perforación direccional horizontal, tendido de fibra óptica y excavación.',
+        project_ngsolutions_view: 'Ver Proyecto',
+
+        // Project 14 - Northern Illinois Cleaning
+        project_northerncleaning_title: 'Northern Illinois Cleaning',
+        project_northerncleaning_category: 'Servicios de Limpieza',
+        project_northerncleaning_desc: 'Página web de limpieza comercial y residencial en el norte de Illinois: oficinas, post-construcción y limpieza profunda.',
+        project_northerncleaning_view: 'Ver Proyecto',
+
+        // Project 15 - EB Wash Mobil
+        project_ebwash_title: 'EB Wash Mobil',
+        project_ebwash_category: 'Lavado Móvil de Camiones',
+        project_ebwash_desc: 'Página web de lavado a presión móvil en Elgin, IL que ofrece lavado de camiones, remolques y flotillas directamente en su patio.',
+        project_ebwash_view: 'Ver Proyecto',
+
+        // Project 16 - Vences Landscaping
+        project_vences_title: 'Vences Landscaping',
+        project_vences_category: 'Jardinería y Adoquines',
+        project_vences_desc: 'Página web de jardinería y diseño exterior en Belvidere, IL: corte de césped, adoquines, piedra decorativa y limpiezas de temporada.',
+        project_vences_view: 'Ver Proyecto',
+
+        // Project 17 - VV Gallery
+        project_vvgallery_title: 'VV Gallery',
+        project_vvgallery_category: 'Muebles y Colchones',
+        project_vvgallery_desc: 'Página web de tienda local de muebles y colchones con salas modulares, tocadores, seccionales y catálogo en tienda.',
+        project_vvgallery_view: 'Ver Proyecto',
+
         view_all_work: 'Ver Todos los Proyectos →',
 
         // Mobile First Section
@@ -414,10 +584,60 @@ const translations = {
         work_unidos_feature2: 'Limpieza de nieve',
         work_unidos_feature3: 'Todo el año',
 
+        work_creativepro_tag: 'Remodelación',
+        work_creativepro_feature1: 'Cocinas y baños de lujo',
+        work_creativepro_feature2: 'Sótanos terminados',
+        work_creativepro_feature3: 'Diseño arquitectónico 3D',
+
+        work_greenmagic_tag: 'Jardinería',
+        work_greenmagic_feature1: 'Mantenimiento de césped',
+        work_greenmagic_feature2: 'Mulch y limpiezas de patio',
+        work_greenmagic_feature3: 'Drenajes y podas',
+
+        work_hdztree_tag: 'Árboles',
+        work_hdztree_feature1: 'Poda y remoción de árboles',
+        work_hdztree_feature2: 'Trituración de tocones',
+        work_hdztree_feature3: 'Limpieza de tormentas',
+
+        work_jortega_tag: 'Techos y Canaletas',
+        work_jortega_feature1: 'Reparación y cambio de techos',
+        work_jortega_feature2: 'Canaletas sin costuras',
+        work_jortega_feature3: 'Protectores de canaletas',
+
+        work_jvlvenue_tag: 'Salón de Eventos',
+        work_jvlvenue_feature1: 'Renta de salón de eventos',
+        work_jvlvenue_feature2: 'Fiestas y celebraciones',
+        work_jvlvenue_feature3: 'Capacidad para 75 personas',
+
+        work_ngsolutions_tag: 'Subterráneo',
+        work_ngsolutions_feature1: 'Servicios subterráneos',
+        work_ngsolutions_feature2: 'Colocación de fibra óptica',
+        work_ngsolutions_feature3: 'Perforación direccional',
+
+        work_northerncleaning_tag: 'Limpieza',
+        work_northerncleaning_feature1: 'Limpieza comercial',
+        work_northerncleaning_feature2: 'Oficinas y post-obra',
+        work_northerncleaning_feature3: 'Limpieza residencial profunda',
+
+        work_ebwash_tag: 'Lavado de Camiones',
+        work_ebwash_feature1: 'Lavado móvil de camiones',
+        work_ebwash_feature2: 'Limpieza de flotillas',
+        work_ebwash_feature3: 'Servicio en su patio',
+
+        work_vences_tag: 'Jardinería',
+        work_vences_feature1: 'Corte y rayado de césped',
+        work_vences_feature2: 'Patios de adoquín y piedra',
+        work_vences_feature3: 'Mulch fresco y limpiezas',
+
+        work_vvgallery_tag: 'Muebles',
+        work_vvgallery_feature1: 'Muebles y colchones',
+        work_vvgallery_feature2: 'Salas modulares y seccionales',
+        work_vvgallery_feature3: 'Catálogo de tienda local',
+
         work_cta_title: '¿Listo para empezar?',
         work_cta_desc: 'Hablemos de su página web.',
         get_in_touch: 'Contactar',
-        gallery_badge_count: '7 Páginas Web Publicadas',
+        gallery_badge_count: '17 Páginas Web Publicadas',
         visit_website_btn: 'Visitar Sitio Web',
 
         // About Page
