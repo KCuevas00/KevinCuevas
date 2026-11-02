@@ -707,6 +707,32 @@ const translations = {
 // 2. LANGUAGE ENGINE
 // ============================================================
 function getSavedLanguage() {
+    // 1. Check URL query parameters or hash (?lang=es, ?es, #es)
+    try {
+        const urlParams = new URLSearchParams(window.location.search);
+        const urlLang = urlParams.get('lang');
+        if (urlLang === 'es' || urlLang === 'en') {
+            saveLanguage(urlLang);
+            return urlLang;
+        }
+        if (urlParams.has('es')) {
+            saveLanguage('es');
+            return 'es';
+        }
+        if (urlParams.has('en')) {
+            saveLanguage('en');
+            return 'en';
+        }
+        const hash = window.location.hash.toLowerCase().replace('#', '');
+        if (hash === 'es' || hash === 'en') {
+            saveLanguage(hash);
+            return hash;
+        }
+    } catch (e) {
+        // Ignore URL error
+    }
+
+    // 2. Check localStorage
     try {
         const lang = localStorage.getItem('preferredLanguage');
         if (lang === 'es' || lang === 'en') return lang;
@@ -760,6 +786,14 @@ function switchLanguage(lang) {
     saveLanguage(lang);
     applyTranslations(lang);
     updateLanguageToggleUI(lang);
+
+    try {
+        const url = new URL(window.location);
+        url.searchParams.set('lang', lang);
+        window.history.replaceState({}, '', url);
+    } catch (e) {
+        // Ignore history error
+    }
 }
 
 function initLanguageToggle() {
