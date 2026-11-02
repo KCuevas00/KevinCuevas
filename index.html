@@ -50,7 +50,20 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./Photos/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="./Photos/apple-touch-icon.png">
     <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
+    <script>
+        (function() {
+            try {
+                var p = new URLSearchParams(window.location.search);
+                var h = window.location.hash.toLowerCase();
+                var l = p.get('lang') || (p.has('es') ? 'es' : (p.has('en') ? 'en' : ''));
+                if (!l && (h === '#es' || h === '#en')) l = h.replace('#', '');
+                if (l === 'es' || l === 'en') {
+                    localStorage.setItem('preferredLanguage', l);
+                }
+            } catch (e) {}
+        })();
+    </script>
+    <script src="main.js?v=3" defer></script>
 
     <!-- Schema.org Structured Data for Local Business & Google Business Profile -->
     <script type="application/ld+json">

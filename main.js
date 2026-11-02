@@ -810,6 +810,14 @@ function initLanguageToggle() {
         }
     });
 
+    // Listen to hash changes in URL bar (e.g., #es, #en)
+    window.addEventListener('hashchange', () => {
+        const hash = window.location.hash.toLowerCase().replace('#', '');
+        if (hash === 'es' || hash === 'en') {
+            switchLanguage(hash);
+        }
+    });
+
     const savedLang = getSavedLanguage();
     applyTranslations(savedLang);
     updateLanguageToggleUI(savedLang);
