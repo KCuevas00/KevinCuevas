@@ -374,7 +374,7 @@ const translations = {
 
         // Hero - About
         hero_about_title: 'Sobre Kevin',
-        hero_about_desc: 'Terminé mi carrera en Computación en Northern Illinois University y ahora estoy en mi Maestría. Hago páginas web para negocios en DeKalb y en todo Illinois.',
+        hero_about_desc: 'Terminé mi carrera en Computación en Northern Illinois University y ahora estoy en mi Maestría. Hago páginas web para negocios en todo Illinois.',
 
         // Hero - Contact
         hero_contact_title: 'Contacto',
@@ -642,7 +642,7 @@ const translations = {
 
         // About Page
         about_title: 'Sobre Mí',
-        about_p1: 'Soy estudiante de Computación en Northern Illinois University. Hago páginas web para negocios en DeKalb y el norte de Illinois porque sé lo que necesitan para que los clientes los encuentren en internet.',
+        about_p1: 'Soy estudiante de Computación en Northern Illinois University. Hago páginas web para negocios en todo Illinois porque sé lo que necesitan para que los clientes los encuentren en internet.',
         about_p2: 'Hago diseños limpios que funcionan bien. Sin complicaciones. Solo una buena página web para su negocio.',
         contact_me: 'Contactarme →',
 
